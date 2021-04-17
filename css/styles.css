@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --secondary-background-color: #f5f4fa;
   --background-footer: #2f303a;
+  --border-color-link: #afb1b8;
   --border-bottom: #ececec;
   --card-border: #eeeeee;
   --flex-basis-item: 3;
@@ -144,10 +145,6 @@ body {
   fill: var(--accent-color);
 }
 
-.list {
-  margin-bottom: 30px;
-}
-
 .social-icons /*ul*/ {
   display: inline-flex;
   justify-content: center;
@@ -227,7 +224,6 @@ body {
 }
 
 .third-title {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -251,10 +247,10 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid #afb1b8;
+  /* border: 1px solid var(--border-color-link); */
   box-sizing: border-box;
   border-radius: 4px;
-  color: #afb1b8;
+  color: var(--border-color-link);
   transition: var(--transition);
 
 }
@@ -588,6 +584,7 @@ li {
 
 /* Наша команда */
 .bgc-command {
+  height: 708px;
   background-color: var(--secondary-background-color);
 }
 
@@ -597,7 +594,6 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   padding-top: 94px;
-  margin-bottom: 50px;
   color: var(--primary-text-color);
 }
 
