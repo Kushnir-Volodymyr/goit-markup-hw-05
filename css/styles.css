@@ -910,6 +910,7 @@ color: var(--primary-text-color);
 
 /* CSS -ПОРТФОЛИО- */
 .buttons-list {
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -924,14 +925,8 @@ color: var(--primary-text-color);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  padding: 6px 22px;
   background-color: var(--secondary-background-color);
   color: var(--main-color);
-  border-radius: 4px;
-  border-color: transparent;
-  transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button,
@@ -949,8 +944,9 @@ color: var(--primary-text-color);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: var(--cursor-button);
   border: none;
+  margin-top: 81px;
+  margin-bottom: 94px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -960,6 +956,7 @@ color: var(--primary-text-color);
 .filter-button:hover,
 .filter-button:focus,
 .subscribe-button {
+  cursor: pointer;
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
