@@ -190,8 +190,7 @@ body {
 }
 
 .features {
-  padding: 94px 0;
-}
+padding-top: 94px;}
 
 .about-items {
   display: flex;
@@ -219,7 +218,8 @@ body {
 }
 
 .clients-bg {
-  margin-bottom: 108px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--white-color)
 }
 
@@ -227,7 +227,6 @@ body {
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  padding-top: 94px;
   margin-bottom: 50px;
   color: var(--primary-text-color);
 }
@@ -505,9 +504,9 @@ li {
 .section-title {
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 50px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
 }
 
 
@@ -520,7 +519,6 @@ li {
 }
 
 .post-text {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.03em;
@@ -530,12 +528,18 @@ li {
 }
 
 /* Чем мым занимаемся */
+.section-act {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .title-act {
+  text-align: center;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
 }
 
@@ -551,7 +555,6 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -30px;
 }
 
 .item-act {
@@ -582,10 +585,9 @@ li {
 
 
 /* Наша команда */
-.section-title-command {
-  height: 708px;
-  margin-top: 94px;
+.section-command {
   padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-background-color);
 }
 
@@ -651,8 +653,8 @@ color: var(--primary-text-color);
 }
 
 .buttons {
-  margin-top: 90px;
-  margin-bottom: 60px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 /* Card item */
 
@@ -666,7 +668,6 @@ color: var(--primary-text-color);
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
-  margin-bottom: 98px;
 }
 
 /* CARD */
@@ -909,6 +910,11 @@ color: var(--primary-text-color);
 }
 
 /* CSS -ПОРТФОЛИО- */
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .buttons-list {
   padding-bottom: 50px;
   display: flex;
@@ -942,7 +948,6 @@ color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
   border: none;
   margin-top: 81px;
@@ -968,8 +973,6 @@ color: var(--primary-text-color);
 }
 
 .project-set {
-  margin: 0;
-  margin-bottom: 98px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
