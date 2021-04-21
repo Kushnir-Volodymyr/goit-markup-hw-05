@@ -119,20 +119,14 @@ body {
 }
 
 .header-link .icon-envelope {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 16px;
-  height: 12px;
+  height: 16px;
   margin-right: 10px;
   fill: var(--secondary-text-color);
 }
 
 .header-link .icon-smartphone {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10px;
+  width: 16px;
   height: 16px;
   margin-right: 10px;
   fill: var(--secondary-text-color);
@@ -296,7 +290,7 @@ padding-top: 94px;}
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo:hover,
+
 .link:focus {
   color: var(--accent-color);
 }
@@ -791,10 +785,15 @@ color: var(--primary-text-color);
   color: var(--accent-color);
 }
 
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+  transition: var(--transition);
+}
+
 .join,
 .subscribe-title {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -833,7 +832,12 @@ color: var(--primary-text-color);
   color: var(--logo-footer-color);
 }
 .footer-btn-subscribe{
-  min-width: 200px;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  width: 200px;
   height: 50px;
   color: var(--white-color);
   background-color: var(--accent-color);
@@ -841,10 +845,15 @@ color: var(--primary-text-color);
   border-radius: 4px;
   border: none;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  /* text-align: center; */
+}
+
+.footer-btn-text {
+  position: absolute;
+  padding-left: 30px;
+}
+
+.footer-btn-svg {
+  fill: var(--white-color);
 }
 
 .footer-btn-text,
@@ -860,10 +869,6 @@ color: var(--primary-text-color);
   margin-right: 30px;
 }
 
-.footer-logo:hover .studio,
-.footer-logo:focus .studio{
-  color: var(--accent-color);
-}
 
 .footer-icons-item {
   display: flex;
@@ -1018,7 +1023,7 @@ color: var(--primary-text-color);
   margin-right: auto;
   background-color: var(--background-footer);
 
-  background-image: url(/images/Img\ Overlay.png), url(../images/hero-bg.jpg);
+  background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../images/hero-bg.jpg);
   background-position: center; 
   background-size: cover; 
 }
